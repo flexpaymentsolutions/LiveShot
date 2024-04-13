@@ -13,13 +13,13 @@
         ResizeMode="NoResize"
         WindowState="Maximized"
         ShowInTaskbar="True"
-        Icon="/icon.ico"
+        Icon="/LiveShot.UI;component/icon.ico"
         WindowStartupLocation="CenterScreen">
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="/Styles.xaml" />
-                <ResourceDictionary Source="/Icons.xaml" />
+                <ResourceDictionary Source="/LiveShot.UI;component/Styles.xaml" />
+                <ResourceDictionary Source="/LiveShot.UI;component/Icons.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Window.Resources>

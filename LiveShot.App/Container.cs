@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
+﻿using System.Reflection;
 using LiveShot.UI.Views;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace LiveShot.UI
+namespace LiveShot.App
 {
     public static class Container
     {

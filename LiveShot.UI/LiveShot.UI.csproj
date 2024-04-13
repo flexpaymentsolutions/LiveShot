@@ -5,12 +5,12 @@
         <UseWPF>true</UseWPF>
         <Nullable>enable</Nullable>
         <ApplicationIcon>icon.ico</ApplicationIcon>
-        <AssemblyName>LiveShot</AssemblyName>
+        <AssemblyName>LiveShot.UI</AssemblyName>
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\LiveShot.API\LiveShot.API.csproj"/>
-        <ProjectReference Include="..\LiveShot.UI.Controls\LiveShot.UI.Controls.csproj"/>
+        <ProjectReference Include="..\LiveShot.API\LiveShot.API.csproj" />
+        <ProjectReference Include="..\LiveShot.UI.Controls\LiveShot.UI.Controls.csproj" />
     </ItemGroup>
 
     <ItemGroup>
@@ -27,14 +27,14 @@
     </ItemGroup>
 
     <ItemGroup>
-        <None Remove="icon.ico"/>
+        <None Remove="icon.ico" />
         <Resource Include="icon.ico">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </Resource>
     </ItemGroup>
 
     <ItemGroup>
-        <None Remove="bg-icon.ico"/>
+        <None Remove="bg-icon.ico" />
         <None Include="bg-icon.ico">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>

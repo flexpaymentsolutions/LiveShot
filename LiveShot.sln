@@ -1,10 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveShot.UI", "LiveShot.UI\LiveShot.UI.csproj", "{B91F183A-DEE0-4206-BDB0-8EBFA6619EE3}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34804.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiveShot.UI", "LiveShot.UI\LiveShot.UI.csproj", "{B91F183A-DEE0-4206-BDB0-8EBFA6619EE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveShot.UI.Controls", "LiveShot.UI.Controls\LiveShot.UI.Controls.csproj", "{614D45ED-910F-4785-A65C-2C6FEED363B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiveShot.UI.Controls", "LiveShot.UI.Controls\LiveShot.UI.Controls.csproj", "{614D45ED-910F-4785-A65C-2C6FEED363B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveShot.API", "LiveShot.API\LiveShot.API.csproj", "{90390EB4-F8D3-4698-A20F-71B9CD0E851E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiveShot.API", "LiveShot.API\LiveShot.API.csproj", "{90390EB4-F8D3-4698-A20F-71B9CD0E851E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiveShot.App", "LiveShot.App\LiveShot.App.csproj", "{F5082047-21C5-425B-843C-7CEBA67E3B98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +29,12 @@ Global
 		{90390EB4-F8D3-4698-A20F-71B9CD0E851E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90390EB4-F8D3-4698-A20F-71B9CD0E851E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90390EB4-F8D3-4698-A20F-71B9CD0E851E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5082047-21C5-425B-843C-7CEBA67E3B98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5082047-21C5-425B-843C-7CEBA67E3B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5082047-21C5-425B-843C-7CEBA67E3B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5082047-21C5-425B-843C-7CEBA67E3B98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

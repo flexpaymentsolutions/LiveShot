@@ -13,7 +13,7 @@ using LiveShot.UI.Views;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace LiveShot.UI
+namespace LiveShot.App
 {
     /// <summary>
     ///     Interaction logic for App.xaml
@@ -21,7 +21,6 @@ namespace LiveShot.UI
     public partial class App
     {
         private IServiceProvider? ServiceProvider { get; set; }
-
         private IConfiguration? Configuration { get; set; }
 
         private CaptureScreenView? CaptureScreenView { get; set; }
@@ -44,9 +43,8 @@ namespace LiveShot.UI
 
             if (e.Args.Contains("--background"))
             {
-                StartBackgroundApp();
-
                 Current.ShutdownMode = ShutdownMode.OnExplicitShutdown;
+                StartBackgroundApp();
             }
             else
             {

@@ -87,16 +87,17 @@ namespace LiveShot.UI.Views
 
         protected override void OnClosing(CancelEventArgs e)
         {
-            e.Cancel = true;
-
             SelectCanvas.Reset();
             DrawingCanvas.Reset();
 
             _actionButtons.ForEach(b => b.IsActive = false);
 
             _liveShotService.ActiveActionButton = null;
-
+            
             Visibility = Visibility.Hidden;
+
+            e.Cancel = true;
+            base.OnClosing(e);
         }
 
         private void PrepareResizeMark(Panel resizeMark)
