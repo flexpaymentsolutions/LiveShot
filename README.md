@@ -8,7 +8,7 @@
 
 # Acknowledgements
 Kudos to [Kenneth Gómez](https://github.com/KennethGomez). Not only is LiveShot a very functional screenshot utility, it's a textbook example of the MVVM/DI patterns and best of all, it's KISS+DRY with no dependencies on the
-"flavor-of-the-month" architectural frameworks. If you learn or see a modern, non-web, desktop WPF example of dependency injection, services, eventing, and configuration binding, this is it.
+"flavor-of-the-month" architectural frameworks. If you want to learn or see a modern, non-web, desktop WPF example of dependency injection, services, eventing, and configuration binding, this is it.
 
 # Updates
 - Bumped to .NET 8
