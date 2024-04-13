@@ -6,6 +6,17 @@
   <img src="https://img.shields.io/github/contributors/KennethGomez/LiveShot"  alt="Contributor count"/>
 </p>
 
+# Acknowledgements
+Kudos to [Kenneth Gómez](https://github.com/KennethGomez). Not only is LiveShot a very functional screenshot utility, it's a textbook example of the MVVM/DI patterns and best of all, it's KISS+DRY with no dependencies on the
+"flavor-of-the-month" architectural frameworks. If you learn or see a modern, non-web, desktop WPF example of dependency injection, services, eventing, and configuration binding, this is it.
+
+# Updates
+- Bumped to .NET 8
+- Separated the capture UI from its original example app so it can be referenced by other projects
+- Added a very basic WPF demo app showing it's usage as a "one-shot" instantiation
+
+# Original README
+
 # LiveShot
 Tool to make enhanced screenshots. Inspired on LightShot
 
